@@ -7,7 +7,7 @@ import ResultCard from './components/ResultCard'
 import { getCurrentPosition } from './utils/geolocation'
 import { reverseGeocode } from './utils/reverseGeocode'
 import { matchShutdowns, matchShutdownsFromCandidates } from './utils/matchShutdown'
-import { loadShutdowns } from './utils/loadShutdowns'
+import { loadShutdowns, formatLastFetched } from './utils/loadShutdowns'
 
 const STATUS = {
   IDLE: 'idle',
@@ -28,15 +28,17 @@ export default function App() {
   const [dataset, setDataset] = useState([])
   const [dataSource, setDataSource] = useState('bundled')
   const [dataReady, setDataReady] = useState(false)
+  const [lastUpdatedLabel, setLastUpdatedLabel] = useState(null)
   const datasetRef = useRef([])
 
   useEffect(() => {
     let active = true
-    loadShutdowns().then(({ records, source }) => {
+    loadShutdowns().then(({ records, source, meta }) => {
       if (!active) return
       datasetRef.current = records
       setDataset(records)
       setDataSource(source)
+      setLastUpdatedLabel(formatLastFetched(meta))
       setDataReady(true)
     })
     return () => {
@@ -234,6 +236,11 @@ export default function App() {
             {dataSource === 'live'
               ? `Showing latest published shutdown data (${dataset.length} records).`
               : 'Showing sample data — live TANGEDCO data not loaded yet.'}
+          </p>
+          <p className="mt-1 text-[11px] font-medium text-ink-700/70">
+            {lastUpdatedLabel
+              ? `${strings.lastUpdated}: ${lastUpdatedLabel}`
+              : strings.lastUpdatedUnknown}
           </p>
         </footer>
       </div>

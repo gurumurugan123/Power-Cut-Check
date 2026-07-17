@@ -114,6 +114,17 @@ The app matches upcoming shutdowns only (`date >= today`). Search index includes
 
 Very short scraped tokens like `P` or `M` are ignored to avoid false matches such as `Gandhipuram` matching single-letter fragments.
 
+## Daily auto-scrape (GitHub Actions)
+
+Workflow: `.github/workflows/scrape.yml`
+
+- Runs daily at **06:00 IST** (`00:30 UTC`)
+- Also has a manual **Run workflow** button under the Actions tab
+- Writes `public/shutdowns.json` + `public/shutdowns.meta.json`
+- Commits and pushes so Vercel can redeploy
+
+Before first run: GitHub → Settings → Actions → General → Workflow permissions → **Read and write permissions**.
+
 ## Disclaimer
 
 This is not an official TANGEDCO/TNPDCL product. Data shown is for planned maintenance shutdowns published by TNPDCL/TANGEDCO. For unscheduled faults, contact TANGEDCO directly.

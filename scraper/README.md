@@ -55,4 +55,7 @@ py scrape_tangedco.py --manual --circle CBE/SOUTH
 
 - Free OCR is not 100% accurate on noisy CAPTCHAs — retries help.
 - Empty scrapes do **not** overwrite `public/shutdowns.json`.
+- Successful runs also write `public/shutdowns.meta.json` with `lastFetchedAt`.
+- Works on Windows and Linux (GitHub Actions). Set `TESSERACT_CMD` if needed.
 - No API key required.
+- Daily automation: see `.github/workflows/scrape.yml` (06:00 IST).

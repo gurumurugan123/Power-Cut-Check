@@ -29,6 +29,8 @@ export const strings = {
   disclaimer:
     'Data shown is for planned maintenance shutdowns as published by TANGEDCO. This is not an official TANGEDCO product. For unscheduled faults, contact TANGEDCO directly.',
   tryAgain: 'Try again with GPS',
+  lastUpdated: 'Last updated',
+  lastUpdatedUnknown: 'Last update time not available yet.',
 }
 
 export default strings

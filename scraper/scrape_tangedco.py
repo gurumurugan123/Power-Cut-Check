@@ -14,10 +14,11 @@ import argparse
 import json
 import os
 import re
+import shutil
 import sys
 import time
 import warnings
-from datetime import datetime
+from datetime import datetime, timezone, timedelta
 
 import requests
 from bs4 import BeautifulSoup
@@ -34,8 +35,11 @@ CAPTCHA_URL = BASE + "captcha.jpg"
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 DEFAULT_OUT = os.path.normpath(os.path.join(HERE, "..", "public", "shutdowns.json"))
+DEFAULT_META = os.path.normpath(os.path.join(HERE, "..", "public", "shutdowns.meta.json"))
 RAW_DUMP = os.path.join(HERE, "last_response.html")
 CAPTCHA_FILE = os.path.join(HERE, "captcha.jpg")
+
+IST = timezone(timedelta(hours=5, minutes=30))
 
 USER_AGENT = (
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
@@ -48,17 +52,45 @@ TESSERACT_CANDIDATES = [
     os.environ.get("TESSERACT_CMD", ""),
     r"C:\Program Files\Tesseract-OCR\tesseract.exe",
     r"C:\Program Files (x86)\Tesseract-OCR\tesseract.exe",
+    "/usr/bin/tesseract",
+    "/usr/local/bin/tesseract",
 ]
 
 
 def configure_tesseract():
+    """Point pytesseract at tesseract on Windows or Linux."""
     import pytesseract
 
     for path in TESSERACT_CANDIDATES:
         if path and os.path.isfile(path):
             pytesseract.pytesseract.tesseract_cmd = path
             return path
+
+    found = shutil.which("tesseract")
+    if found:
+        pytesseract.pytesseract.tesseract_cmd = found
+        return found
+
     return "tesseract"
+
+
+def write_meta(meta_path, *, record_count, circles_ok, circles_attempted, script_args):
+    now_ist = datetime.now(IST)
+    now_utc = datetime.now(timezone.utc)
+    meta = {
+        "lastFetchedAt": now_ist.isoformat(timespec="seconds"),
+        "lastFetchedAtUtc": now_utc.isoformat(timespec="seconds").replace("+00:00", "Z"),
+        "source": "https://www.tnebltd.gov.in/outages/viewshutdown.xhtml",
+        "script": " ".join(["scrape_tangedco.py", *script_args]),
+        "recordCount": record_count,
+        "circlesAttempted": circles_attempted,
+        "circlesSucceeded": circles_ok,
+        "ocr": "tesseract",
+    }
+    os.makedirs(os.path.dirname(meta_path) or ".", exist_ok=True)
+    with open(meta_path, "w", encoding="utf-8") as fh:
+        json.dump(meta, fh, indent=2, ensure_ascii=False)
+    return meta
 
 
 def new_session():
@@ -451,11 +483,20 @@ def main():
                     help="Circle labels (CBE/NORTH) or codes (0430). Default: Coimbatore circles.")
     ap.add_argument("--all", action="store_true", help="Scrape every circle.")
     ap.add_argument("--out", default=DEFAULT_OUT, help="Output JSON path.")
+    ap.add_argument("--meta", default=DEFAULT_META, help="Output meta JSON path (lastFetchedAt).")
     ap.add_argument("--manual", action="store_true",
                     help="Type CAPTCHA manually instead of Tesseract OCR.")
     ap.add_argument("--list-circles", action="store_true", help="Print available circles and exit.")
     ap.add_argument("--save-raw", action="store_true", help="Save each raw HTML response for debugging.")
     args = ap.parse_args()
+
+    script_args = []
+    if args.all:
+        script_args.append("--all")
+    elif args.circle:
+        script_args.extend(["--circle", *args.circle])
+    if args.manual:
+        script_args.append("--manual")
 
     if not args.manual:
         try:
@@ -485,6 +526,7 @@ def main():
         sys.exit(1)
 
     all_records = []
+    circles_ok = []
     for label, code in targets:
         print(f"\n=== {label} ({code}) ===")
         records = scrape_one_circle(
@@ -492,7 +534,9 @@ def main():
             manual=args.manual,
             save_raw=args.save_raw,
         )
-        all_records.extend(records)
+        if records:
+            circles_ok.append(label)
+            all_records.extend(records)
         time.sleep(0.8)
 
     if not all_records:
@@ -509,7 +553,17 @@ def main():
     with open(args.out, "w", encoding="utf-8") as fh:
         json.dump(all_records, fh, indent=2, ensure_ascii=False)
 
+    meta = write_meta(
+        args.meta,
+        record_count=len(all_records),
+        circles_ok=circles_ok,
+        circles_attempted=[label for label, _ in targets],
+        script_args=script_args,
+    )
+
     print(f"\nWrote {len(all_records)} record(s) to {args.out}")
+    print(f"Wrote meta to {args.meta}")
+    print(f"Last fetched (IST): {meta['lastFetchedAt']}")
 
 
 if __name__ == "__main__":

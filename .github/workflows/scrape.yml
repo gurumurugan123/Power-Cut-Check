@@ -1,0 +1,51 @@
+name: Daily TNPDCL scrape
+
+on:
+  schedule:
+    # 06:00 IST = 00:30 UTC
+    - cron: "30 0 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install Tesseract OCR
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y tesseract-ocr
+          tesseract --version
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install Python dependencies
+        run: pip install -r scraper/requirements.txt
+
+      - name: Scrape all circles
+        working-directory: scraper
+        run: python scrape_tangedco.py --all
+        env:
+          TESSERACT_CMD: /usr/bin/tesseract
+
+      - name: Commit updated shutdown data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add public/shutdowns.json public/shutdowns.meta.json
+          if git diff --staged --quiet; then
+            echo "No data changes to commit."
+          else
+            git commit -m "chore: update daily TNPDCL shutdown data"
+            git push
+          fi
