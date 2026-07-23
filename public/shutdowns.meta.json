@@ -1,9 +1,9 @@
 {
-  "lastFetchedAt": "2026-07-22T09:29:51+05:30",
-  "lastFetchedAtUtc": "2026-07-22T03:59:51Z",
+  "lastFetchedAt": "2026-07-23T09:26:25+05:30",
+  "lastFetchedAtUtc": "2026-07-23T03:56:25Z",
   "source": "https://www.tnebltd.gov.in/outages/viewshutdown.xhtml",
   "script": "scrape_tangedco.py --all",
-  "recordCount": 139,
+  "recordCount": 104,
   "circlesAttempted": [
     "CBE/METRO",
     "CBE/NORTH",
@@ -60,7 +60,7 @@
     "DINDIGUL",
     "ERODE",
     "KARUR",
-    "KRISHNAGIRI",
+    "METTUR",
     "NAGAPATTINAM",
     "NAMAKKAL",
     "PALLADAM",
