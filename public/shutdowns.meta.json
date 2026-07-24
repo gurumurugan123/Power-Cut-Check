@@ -1,9 +1,9 @@
 {
-  "lastFetchedAt": "2026-07-23T09:26:25+05:30",
-  "lastFetchedAtUtc": "2026-07-23T03:56:25Z",
+  "lastFetchedAt": "2026-07-24T09:25:21+05:30",
+  "lastFetchedAtUtc": "2026-07-24T03:55:21Z",
   "source": "https://www.tnebltd.gov.in/outages/viewshutdown.xhtml",
   "script": "scrape_tangedco.py --all",
-  "recordCount": 104,
+  "recordCount": 71,
   "circlesAttempted": [
     "CBE/METRO",
     "CBE/NORTH",
@@ -60,20 +60,14 @@
     "DINDIGUL",
     "ERODE",
     "KARUR",
-    "METTUR",
     "NAGAPATTINAM",
     "NAMAKKAL",
     "PALLADAM",
     "PERAMBALUR",
-    "PUDUKKOTTAI",
-    "SALEM",
     "THANJAVUR",
     "THENI",
     "THIRUVARUR",
-    "TIRUPATTUR",
-    "TRICHY METRO",
     "UDUMALPET",
-    "VELLORE",
     "VILLUPURAM"
   ],
   "ocr": "tesseract"
