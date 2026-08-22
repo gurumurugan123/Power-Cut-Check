@@ -1,9 +1,9 @@
 {
-  "lastFetchedAt": "2026-08-21T07:40:24+05:30",
-  "lastFetchedAtUtc": "2026-08-21T02:10:24Z",
+  "lastFetchedAt": "2026-08-22T07:30:07+05:30",
+  "lastFetchedAtUtc": "2026-08-22T02:00:07Z",
   "source": "https://www.tnebltd.gov.in/outages/viewshutdown.xhtml",
   "script": "scrape_tangedco.py --all",
-  "recordCount": 137,
+  "recordCount": 138,
   "circlesAttempted": [
     "CBE/METRO",
     "CBE/NORTH",
@@ -52,9 +52,11 @@
     "VIRUDUNAGAR"
   ],
   "circlesSucceeded": [
+    "CBE/METRO",
     "CBE/NORTH",
     "CUDDALORE",
     "DHARMAPURI",
+    "KANYAKUMARI",
     "KARUR",
     "KRISHNAGIRI",
     "NAGAPATTINAM",
