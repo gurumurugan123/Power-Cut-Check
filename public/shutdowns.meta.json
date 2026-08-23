@@ -1,9 +1,9 @@
 {
-  "lastFetchedAt": "2026-08-22T07:30:07+05:30",
-  "lastFetchedAtUtc": "2026-08-22T02:00:07Z",
+  "lastFetchedAt": "2026-08-23T07:41:54+05:30",
+  "lastFetchedAtUtc": "2026-08-23T02:11:54Z",
   "source": "https://www.tnebltd.gov.in/outages/viewshutdown.xhtml",
   "script": "scrape_tangedco.py --all",
-  "recordCount": 138,
+  "recordCount": 124,
   "circlesAttempted": [
     "CBE/METRO",
     "CBE/NORTH",
@@ -56,7 +56,6 @@
     "CBE/NORTH",
     "CUDDALORE",
     "DHARMAPURI",
-    "KANYAKUMARI",
     "KARUR",
     "KRISHNAGIRI",
     "NAGAPATTINAM",
