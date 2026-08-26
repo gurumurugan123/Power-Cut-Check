@@ -1,9 +1,9 @@
 {
-  "lastFetchedAt": "2026-08-25T07:31:57+05:30",
-  "lastFetchedAtUtc": "2026-08-25T02:01:57Z",
+  "lastFetchedAt": "2026-08-26T07:41:23+05:30",
+  "lastFetchedAtUtc": "2026-08-26T02:11:23Z",
   "source": "https://www.tnebltd.gov.in/outages/viewshutdown.xhtml",
   "script": "scrape_tangedco.py --all",
-  "recordCount": 118,
+  "recordCount": 105,
   "circlesAttempted": [
     "CBE/METRO",
     "CBE/NORTH",
@@ -64,7 +64,6 @@
     "PUDUKKOTTAI",
     "THANJAVUR",
     "THENI",
-    "TIRUNELVELI",
     "TIRUPATTUR",
     "UDUMALPET",
     "VIRUDUNAGAR"
