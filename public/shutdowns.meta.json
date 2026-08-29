@@ -1,9 +1,9 @@
 {
-  "lastFetchedAt": "2026-08-28T17:09:44+05:30",
-  "lastFetchedAtUtc": "2026-08-28T11:39:44Z",
+  "lastFetchedAt": "2026-08-29T12:48:17+05:30",
+  "lastFetchedAtUtc": "2026-08-29T07:18:17Z",
   "source": "https://www.tnebltd.gov.in/outages/viewshutdown.xhtml",
   "script": "scrape_tangedco.py --all",
-  "recordCount": 118,
+  "recordCount": 130,
   "circlesAttempted": [
     "CBE/METRO",
     "CBE/NORTH",
@@ -58,6 +58,7 @@
     "DHARMAPURI",
     "KANYAKUMARI",
     "KARUR",
+    "KRISHNAGIRI",
     "NAGAPATTINAM",
     "PERAMBALUR",
     "PUDUKKOTTAI",
