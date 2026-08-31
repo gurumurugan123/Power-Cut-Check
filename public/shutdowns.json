@@ -528,6 +528,82 @@
   },
   {
     "id": 24,
+    "circle": "NAGAPATTINAM",
+    "town": "Mayiladuthurai",
+    "substation": "MAYILADUTHURAI 110/33/11KV",
+    "feeder": "MAYILADUTHURAI 110/33/11KV",
+    "localities": [
+      "Town-I",
+      "Vadakarai",
+      "Manganallur",
+      "ANPuram",
+      "Waterworks",
+      "Town III",
+      "Vazhuvoor",
+      "Moovalur",
+      "Kiliyanur",
+      "Koranadu",
+      "Myld Urban",
+      "Manakudi",
+      "Memathur"
+    ],
+    "date": "2026-09-19",
+    "fromTime": "09:00",
+    "toTime": "17:00",
+    "reason": "Maintanance"
+  },
+  {
+    "id": 25,
+    "circle": "NAGAPATTINAM",
+    "town": "Memathur",
+    "substation": "Memathur  33/11KV",
+    "feeder": "Memathur  33/11KV",
+    "localities": [
+      "Memathur",
+      "Thiruvilaiyattam",
+      "Keezhamathur",
+      "Aarupathi"
+    ],
+    "date": "2026-09-19",
+    "fromTime": "09:00",
+    "toTime": "17:00",
+    "reason": "Maintanance"
+  },
+  {
+    "id": 26,
+    "circle": "NAGAPATTINAM",
+    "town": "Mayiladuthurai",
+    "substation": "Mayiladuthurai Urban 33/11KV",
+    "feeder": "Mayiladuthurai Urban 33/11KV",
+    "localities": [
+      "Dharmapuram",
+      "Bazzar",
+      "Thiruvilandur"
+    ],
+    "date": "2026-09-19",
+    "fromTime": "09:00",
+    "toTime": "17:00",
+    "reason": "Maintanance"
+  },
+  {
+    "id": 27,
+    "circle": "NAGAPATTINAM",
+    "town": "Mannakudi",
+    "substation": "MANAKKUDI 33/11 KV",
+    "feeder": "MANAKKUDI 33/11 KV",
+    "localities": [
+      "manakkudi",
+      "semangalam",
+      "Mappadugai",
+      "vepangulam"
+    ],
+    "date": "2026-09-19",
+    "fromTime": "09:00",
+    "toTime": "17:00",
+    "reason": "Maintanance"
+  },
+  {
+    "id": 28,
     "circle": "UDUMALPET",
     "town": "Pollachi",
     "substation": "POLLACHI 110 KV",
@@ -555,7 +631,7 @@
     "reason": "Maintenance"
   },
   {
-    "id": 25,
+    "id": 29,
     "circle": "UDUMALPET",
     "town": "Udumalpet",
     "substation": "KOTTAMANGALAM 110/22 KV SS",
@@ -577,7 +653,7 @@
     "reason": "Maintenance"
   },
   {
-    "id": 26,
+    "id": 30,
     "circle": "UDUMALPET",
     "town": "Pollachi",
     "substation": "Samathur  110/ 22 KV SS",
@@ -604,7 +680,7 @@
     "reason": "Maintenance"
   },
   {
-    "id": 27,
+    "id": 31,
     "circle": "UDUMALPET",
     "town": "Udumalpet",
     "substation": "POOLANKINAR 110 KV",
@@ -633,7 +709,7 @@
     "reason": "Maintenance"
   },
   {
-    "id": 28,
+    "id": 32,
     "circle": "UDUMALPET",
     "town": "Pollachi",
     "substation": "GOMANGALAMPUDUR 110/22 KV SS",
@@ -658,7 +734,7 @@
     "reason": "Maintenance"
   },
   {
-    "id": 29,
+    "id": 33,
     "circle": "UDUMALPET",
     "town": "Pollachi",
     "substation": "Thalakkarai Muthur 110 / 22 KV SS",
@@ -688,7 +764,7 @@
     "reason": "Maintenance"
   },
   {
-    "id": 30,
+    "id": 34,
     "circle": "UDUMALPET",
     "town": "Pollachi",
     "substation": "MARICHAINAIKANPALAYAM 110 KV",
@@ -713,7 +789,7 @@
     "reason": "Maintenance"
   },
   {
-    "id": 31,
+    "id": 35,
     "circle": "UDUMALPET",
     "town": "Udumalpet",
     "substation": "MADATHUKULAM 110 KV",
@@ -742,7 +818,7 @@
     "reason": "Maintenance"
   },
   {
-    "id": 32,
+    "id": 36,
     "circle": "UDUMALPET",
     "town": "Angalakurichi",
     "substation": "IYERPADY 110/22 kv",
@@ -772,7 +848,7 @@
     "reason": "Maintenance"
   },
   {
-    "id": 33,
+    "id": 37,
     "circle": "UDUMALPET",
     "town": "Pollachi",
     "substation": "ALAMARATHUR 110/22 KV SS",
@@ -801,7 +877,7 @@
     "reason": "Maintenance"
   },
   {
-    "id": 34,
+    "id": 38,
     "circle": "UDUMALPET",
     "town": "Angalakurichi",
     "substation": "ANGALAKURICHI 110 KV",
@@ -830,7 +906,7 @@
     "reason": "Maintenance"
   },
   {
-    "id": 35,
+    "id": 39,
     "circle": "UDUMALPET",
     "town": "Udumalpet",
     "substation": "POOLAVADY 110 KV",
