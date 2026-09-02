@@ -1,9 +1,9 @@
 {
-  "lastFetchedAt": "2026-09-01T10:58:54+05:30",
-  "lastFetchedAtUtc": "2026-09-01T05:28:54Z",
+  "lastFetchedAt": "2026-09-02T10:25:35+05:30",
+  "lastFetchedAtUtc": "2026-09-02T04:55:35Z",
   "source": "https://www.tnebltd.gov.in/outages/viewshutdown.xhtml",
   "script": "scrape_tangedco.py --all",
-  "recordCount": 70,
+  "recordCount": 114,
   "circlesAttempted": [
     "CBE/METRO",
     "CBE/NORTH",
@@ -55,6 +55,7 @@
     "CBE/METRO",
     "CBE/NORTH",
     "NAGAPATTINAM",
+    "TIRUPATTUR",
     "UDUMALPET"
   ],
   "ocr": "tesseract"
