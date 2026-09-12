@@ -1,9 +1,9 @@
 {
-  "lastFetchedAt": "2026-09-11T10:30:32+05:30",
-  "lastFetchedAtUtc": "2026-09-11T05:00:32Z",
+  "lastFetchedAt": "2026-09-12T10:23:31+05:30",
+  "lastFetchedAtUtc": "2026-09-12T04:53:31Z",
   "source": "https://www.tnebltd.gov.in/outages/viewshutdown.xhtml",
   "script": "scrape_tangedco.py --all",
-  "recordCount": 229,
+  "recordCount": 211,
   "circlesAttempted": [
     "CBE/METRO",
     "CBE/NORTH",
@@ -53,7 +53,6 @@
   ],
   "circlesSucceeded": [
     "CBE/METRO",
-    "CBE/NORTH",
     "DHARMAPURI",
     "KARUR",
     "KRISHNAGIRI",
