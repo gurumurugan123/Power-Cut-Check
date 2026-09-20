@@ -3,54 +3,6 @@
     "id": 1,
     "circle": "CBE/METRO",
     "town": "Metro",
-    "substation": "COIMBATORE 110 KV",
-    "feeder": "COIMBATORE 110 KV",
-    "localities": [
-      "Gandhipuram",
-      "siddhapudur",
-      "Tatabad",
-      "Avarampalayam part",
-      "Mettupalayam road",
-      "Circuit House",
-      "Air force",
-      "Sukrawarpet",
-      "Marakkadai",
-      "Ramnagar",
-      "Saibaba colony",
-      "Poomarket",
-      "Race Course",
-      "sivanandha"
-    ],
-    "date": "2026-09-19",
-    "fromTime": "09:00",
-    "toTime": "16:00",
-    "reason": "Maintenanace work"
-  },
-  {
-    "id": 2,
-    "circle": "CBE/METRO",
-    "town": "Metro",
-    "substation": "SULUR 110 KV",
-    "feeder": "SULUR 110 KV",
-    "localities": [
-      "Sulur",
-      "T.M.Nagar",
-      "Ranganathapuram",
-      "M.G.Pudur",
-      "B.S.Nagar",
-      "Kannampalayam",
-      "Kangeyampalayam",
-      "Ravuthur"
-    ],
-    "date": "2026-09-19",
-    "fromTime": "09:00",
-    "toTime": "16:00",
-    "reason": "Maintenanace work"
-  },
-  {
-    "id": 3,
-    "circle": "CBE/METRO",
-    "town": "Metro",
     "substation": "PATTANAM 110/11 KV SS",
     "feeder": "PATTANAM 110/11 KV SS",
     "localities": [
@@ -71,7 +23,7 @@
     "reason": "Maintenanace work"
   },
   {
-    "id": 4,
+    "id": 2,
     "circle": "CBE/METRO",
     "town": "Metro",
     "substation": "RS PURAM",
@@ -97,7 +49,7 @@
     "reason": "Maintenanace work"
   },
   {
-    "id": 5,
+    "id": 3,
     "circle": "CBE/METRO",
     "town": "Metro",
     "substation": "MYLAMPATTY",
@@ -116,7 +68,7 @@
     "reason": "Maintenanace work"
   },
   {
-    "id": 6,
+    "id": 4,
     "circle": "CBE/METRO",
     "town": "Metro",
     "substation": "PEEDAMPALLY 110 KV",
@@ -141,7 +93,7 @@
     "reason": "Maintenanace work"
   },
   {
-    "id": 7,
+    "id": 5,
     "circle": "CBE/METRO",
     "town": "Metro",
     "substation": "Race course   110 KV SS",
@@ -160,31 +112,7 @@
     "reason": "Maintenanace work"
   },
   {
-    "id": 8,
-    "circle": "DHARMAPURI",
-    "town": "Karimangalam",
-    "substation": "KARIMANGALAM 110/33-11 KV SS",
-    "feeder": "KARIMANGALAM 110/33-11 KV SS",
-    "localities": [
-      "Karimangalam",
-      "Kerakodahalli",
-      "Bommahalli",
-      "Kettur",
-      "Anumanthapuram",
-      "Annamalaihalli",
-      "Naganampatti",
-      "Thumbalahalli",
-      "Ettiyanoor",
-      "Elumichahalli",
-      "Peariyampatty"
-    ],
-    "date": "2026-09-19",
-    "fromTime": "09:00",
-    "toTime": "14:00",
-    "reason": "Maintenance"
-  },
-  {
-    "id": 9,
+    "id": 6,
     "circle": "DHARMAPURI",
     "town": "Pennagaram",
     "substation": "PENNAGARAM 110/33/11",
@@ -207,7 +135,7 @@
     "reason": "Maintenance"
   },
   {
-    "id": 10,
+    "id": 7,
     "circle": "DHARMAPURI",
     "town": "Pappireddipatty",
     "substation": "PAPPIREDDIPATTY",
@@ -233,7 +161,7 @@
     "reason": "Maintenance"
   },
   {
-    "id": 11,
+    "id": 8,
     "circle": "DHARMAPURI",
     "town": "Vellichandhai",
     "substation": "VELLICHANDAI 110/33-11",
@@ -256,7 +184,7 @@
     "reason": "Maintenance"
   },
   {
-    "id": 12,
+    "id": 9,
     "circle": "DHARMAPURI",
     "town": "Adhiyamankottai",
     "substation": "ADHIYAMANKOTTAI 110/11",
@@ -280,268 +208,7 @@
     "reason": "Maintenance"
   },
   {
-    "id": 13,
-    "circle": "KARUR",
-    "town": "karur",
-    "substation": "THALAPATTY",
-    "feeder": "THALAPATTY",
-    "localities": [
-      "Thalapatty karur tex park",
-      "six road",
-      "SG Puthur",
-      "manalmedu",
-      "kakavadi",
-      "kullampatty",
-      "vaiyappampatty",
-      "attaiyamparapu",
-      "karuppampalayam",
-      "thumbivadi",
-      "pallapalayam",
-      "thathampalayam"
-    ],
-    "date": "2026-09-19",
-    "fromTime": "09:00",
-    "toTime": "17:00",
-    "reason": "substation maintennace work"
-  },
-  {
-    "id": 14,
-    "circle": "KARUR",
-    "town": "karur",
-    "substation": "PALLAPATTI 110 KV",
-    "feeder": "PALLAPATTI 110 KV",
-    "localities": [
-      "Pallapatty",
-      "Aravakurichy",
-      "Anna nagar",
-      "Tamil nagar",
-      "Manmari",
-      "Velambadi",
-      "Molaiyandipatty",
-      "Peri seethapattty",
-      "Rengaraj nagar",
-      "Soundara puram",
-      "Lingamanaickanpatty"
-    ],
-    "date": "2026-09-19",
-    "fromTime": "09:00",
-    "toTime": "17:00",
-    "reason": "karudaiyampalayam, K.Paramathi, Nedunkur"
-  },
-  {
-    "id": 15,
-    "circle": "KARUR",
-    "town": "karur",
-    "substation": "THENNILAI",
-    "feeder": "THENNILAI",
-    "localities": [
-      "thennilai and surrounding areas"
-    ],
-    "date": "2026-09-19",
-    "fromTime": "09:00",
-    "toTime": "17:00",
-    "reason": "substation maintennace work"
-  },
-  {
-    "id": 16,
-    "circle": "KARUR",
-    "town": "karur",
-    "substation": "NOYYAL 110/11 KV SS",
-    "feeder": "NOYYAL 110/11 KV SS",
-    "localities": [
-      "Athipalayam",
-      "Kuppam",
-      "noyyal",
-      "maravapalayam",
-      "poongodai",
-      "uppuplayam",
-      "kulathupalayam",
-      "kalipalayam",
-      "nathamedu",
-      "athipalayam puthur",
-      "valayapalayam",
-      "indranagra colony",
-      "vadakku noyyal"
-    ],
-    "date": "2026-09-19",
-    "fromTime": "09:00",
-    "toTime": "17:00",
-    "reason": "substation maintennace work"
-  },
-  {
-    "id": 17,
-    "circle": "KARUR",
-    "town": "karur",
-    "substation": "ANDICHETTIPALAYAM 110 KV",
-    "feeder": "ANDICHETTIPALAYAM 110 KV",
-    "localities": [
-      "Andichettipalyam",
-      "Thennilai",
-      "Kodanthur",
-      "Kattu munnur",
-      "karvali",
-      "vadakarai",
-      "kattampatty",
-      "C.Kudalur",
-      "Periya thirumangalam",
-      "Arangapalayam",
-      "Thokkupatty"
-    ],
-    "date": "2026-09-19",
-    "fromTime": "09:00",
-    "toTime": "17:00",
-    "reason": "substation maintennace work"
-  },
-  {
-    "id": 18,
-    "circle": "KARUR",
-    "town": "karur",
-    "substation": "RAJAPURAM",
-    "feeder": "RAJAPURAM",
-    "localities": [
-      "rajapuram",
-      "elamedu",
-      "Punjai kalakuruchy",
-      "nanjai kalakuruchy",
-      "elavanur",
-      "rajapuram",
-      "Thokkupatty puthur",
-      "Sudamani",
-      "anaiputhur"
-    ],
-    "date": "2026-09-19",
-    "fromTime": "09:00",
-    "toTime": "17:00",
-    "reason": "substation maintennace work"
-  },
-  {
-    "id": 19,
-    "circle": "KARUR",
-    "town": "karur",
-    "substation": "SELLIVALASU 33/11 KV SS",
-    "feeder": "SELLIVALASU 33/11 KV SS",
-    "localities": [
-      "Enunganur",
-      "vedikaranpatty",
-      "thalayari patty",
-      "modakkur",
-      "kurumbapatty",
-      "paraiyur",
-      "viralipatty",
-      "navamarathupatty",
-      "puthu patty",
-      "kurikaran valasu"
-    ],
-    "date": "2026-09-19",
-    "fromTime": "09:00",
-    "toTime": "17:00",
-    "reason": "karudaiyampalayam, K.Paramathi, Nedunkur"
-  },
-  {
-    "id": 20,
-    "circle": "KARUR",
-    "town": "karur",
-    "substation": "KARUNGALPATTY 33/11 KV SS",
-    "feeder": "KARUNGALPATTY 33/11 KV SS",
-    "localities": [
-      "Esanatham",
-      "manamettupatty",
-      "Z-Alamarathupatty",
-      "Amma patty",
-      "Muthu goundanur",
-      "vallapampatty",
-      "santhaipettai",
-      "panna patty"
-    ],
-    "date": "2026-09-19",
-    "fromTime": "09:00",
-    "toTime": "17:00",
-    "reason": "karudaiyampalayam, K.Paramathi, Nedunkur"
-  },
-  {
-    "id": 21,
-    "circle": "KARUR",
-    "town": "karur",
-    "substation": "ARAVAKURICHI 33/11 KV SS",
-    "feeder": "ARAVAKURICHI 33/11 KV SS",
-    "localities": [
-      "Aravakurichy town area",
-      "Kothapalayam",
-      "karadipatty",
-      "Periyavalaya patty",
-      "R.P.Puthur"
-    ],
-    "date": "2026-09-19",
-    "fromTime": "09:00",
-    "toTime": "17:00",
-    "reason": "karudaiyampalayam, K.Paramathi, Nedunkur"
-  },
-  {
-    "id": 22,
-    "circle": "KARUR",
-    "town": "karur",
-    "substation": "PUGALUR 110 KV",
-    "feeder": "PUGALUR 110 KV",
-    "localities": [
-      "Punjai pugalur",
-      "Velayuthampalayam",
-      "Thottakurichy",
-      "Thalavapalayam",
-      "Thavitupalayam",
-      "Nadayanur",
-      "Semangi",
-      "Noyyal and noyyal arounding areas"
-    ],
-    "date": "2026-09-19",
-    "fromTime": "09:00",
-    "toTime": "17:00",
-    "reason": "karudaiyampalayam, K.Paramathi, Nedunkur"
-  },
-  {
-    "id": 23,
-    "circle": "KARUR",
-    "town": "karur",
-    "substation": "MALAIKOVILUR 110 KV",
-    "feeder": "MALAIKOVILUR 110 KV",
-    "localities": [
-      "malaikovilur",
-      "chellipalayam",
-      "kanagapuri",
-      "kethampatty",
-      "kovilur",
-      "chinnakariyampatty",
-      "periyakariyampatty",
-      "senbaganam",
-      "varikapatty",
-      "madu reddipatty",
-      "moolapatty",
-      "nallakumaranpatty",
-      "nagamballi",
-      "K.Venkatapuram"
-    ],
-    "date": "2026-09-19",
-    "fromTime": "09:00",
-    "toTime": "17:00",
-    "reason": "substation maintennace work"
-  },
-  {
-    "id": 24,
-    "circle": "KARUR",
-    "town": "karur",
-    "substation": "Renganadhapuram 33/11",
-    "feeder": "Renganadhapuram 33/11",
-    "localities": [
-      "karudaiyampalayam",
-      "K.Paramathi",
-      "Nedunkur"
-    ],
-    "date": "2026-09-19",
-    "fromTime": "09:00",
-    "toTime": "17:00",
-    "reason": "karudaiyampalayam, K.Paramathi, Nedunkur"
-  },
-  {
-    "id": 25,
+    "id": 10,
     "circle": "KARUR",
     "town": "karur",
     "substation": "CHINNAPANAIYUR",
@@ -555,7 +222,7 @@
     "reason": "karudaiyampalayam, K.Paramathi, Nedunkur"
   },
   {
-    "id": 26,
+    "id": 11,
     "circle": "KARUR",
     "town": "karur",
     "substation": "UPPIDAMANGALAM 33/11 KV SS",
@@ -576,7 +243,7 @@
     "reason": "karudaiyampalayam, K.Paramathi, Nedunkur"
   },
   {
-    "id": 27,
+    "id": 12,
     "circle": "KARUR",
     "town": "karur",
     "substation": "S.VELLALAPATTY",
@@ -597,7 +264,7 @@
     "reason": "karudaiyampalayam, K.Paramathi, Nedunkur"
   },
   {
-    "id": 28,
+    "id": 13,
     "circle": "KARUR",
     "town": "karur",
     "substation": "KANIYALAMPATTY",
@@ -623,7 +290,7 @@
     "reason": "karudaiyampalayam, K.Paramathi, Nedunkur"
   },
   {
-    "id": 29,
+    "id": 14,
     "circle": "KARUR",
     "town": "karur",
     "substation": "VELLIYANAI 110 KV",
@@ -647,7 +314,7 @@
     "reason": "karudaiyampalayam, K.Paramathi, Nedunkur"
   },
   {
-    "id": 30,
+    "id": 15,
     "circle": "KRISHNAGIRI",
     "town": "Bagalur",
     "substation": "BAGALUR 110/33-11",
@@ -676,7 +343,7 @@
     "reason": "Monthly Maintenance Work"
   },
   {
-    "id": 31,
+    "id": 16,
     "circle": "KRISHNAGIRI",
     "town": "Bargur",
     "substation": "BARGUR 110/33/11KV",
@@ -703,7 +370,7 @@
     "reason": "Monthly Maintenance Work"
   },
   {
-    "id": 32,
+    "id": 17,
     "circle": "KRISHNAGIRI",
     "town": "Thogarapally",
     "substation": "Thogarapally 110/33KV",
@@ -732,7 +399,7 @@
     "reason": "Monthly Maintenance Work"
   },
   {
-    "id": 33,
+    "id": 18,
     "circle": "KRISHNAGIRI",
     "town": "Zuzuvadi",
     "substation": "ZUZUVADI 110/11",
@@ -761,7 +428,7 @@
     "reason": "Monthly Maintenance Work"
   },
   {
-    "id": 34,
+    "id": 19,
     "circle": "KRISHNAGIRI",
     "town": "Penneswaramadam",
     "substation": "PENNESWARAMADAM 110/33-11 KV SS",
@@ -790,7 +457,7 @@
     "reason": "Monthly Maintenance Work"
   },
   {
-    "id": 35,
+    "id": 20,
     "circle": "KRISHNAGIRI",
     "town": "Hosur",
     "substation": "HOSUR 110/33-11 KV SS",
@@ -818,7 +485,7 @@
     "reason": "Monthly Maintenance Work"
   },
   {
-    "id": 36,
+    "id": 21,
     "circle": "KRISHNAGIRI",
     "town": "Begapally",
     "substation": "BEGEPALLY 110/11 KV SS",
@@ -838,7 +505,7 @@
     "reason": "Monthly Maintenance Work"
   },
   {
-    "id": 37,
+    "id": 22,
     "circle": "KRISHNAGIRI",
     "town": "Rayakottai",
     "substation": "RAYAKOTTAI  110 KV SS",
@@ -861,219 +528,40 @@
     "reason": "Monthly Maintenance Work"
   },
   {
-    "id": 38,
+    "id": 23,
     "circle": "NAGAPATTINAM",
-    "town": "Kilvelur",
-    "substation": "Kilvelur 33/11KV",
-    "feeder": "Kilvelur 33/11KV",
+    "town": "Thittacherry",
+    "substation": "Thittacherry 33/11 KV",
+    "feeder": "Thittacherry 33/11 KV",
     "localities": [
-      "Thevur",
-      "Cwss",
-      "Keevalur",
-      "Aliyur"
+      "Thitachery",
+      "Maraikanchavady",
+      "Vaalmangalam",
+      "Panagudy"
     ],
-    "date": "2026-09-19",
+    "date": "2026-09-22",
     "fromTime": "09:00",
     "toTime": "17:00",
     "reason": "Maintanance"
   },
   {
-    "id": 39,
+    "id": 24,
     "circle": "NAGAPATTINAM",
-    "town": "Achalpuram",
-    "substation": "ACHALPURAM 110/33-11 KV SS",
-    "feeder": "ACHALPURAM 110/33-11 KV SS",
+    "town": "Thirumarugal",
+    "substation": "Thirumarugal",
+    "feeder": "Thirumarugal",
     "localities": [
-      "A.K.Chathram",
-      "Mahendirapalli",
-      "Madhanam",
-      "Palaiyar",
-      "Water Works",
-      "Thulsendrapuram",
-      "Thandavankulam",
-      "Vellamanal"
+      "Thirumarugal",
+      "Marungur",
+      "CWSS"
     ],
-    "date": "2026-09-19",
+    "date": "2026-09-22",
     "fromTime": "09:00",
     "toTime": "17:00",
     "reason": "Maintanance"
   },
   {
-    "id": 40,
-    "circle": "NAGAPATTINAM",
-    "town": "Thiruvengadu",
-    "substation": "THIRUVENGADU 110/11 KV",
-    "feeder": "THIRUVENGADU 110/11 KV",
-    "localities": [
-      "Thiruvengadu",
-      "Nangoor",
-      "Thirunagari",
-      "Manickramam",
-      "Melaiyur",
-      "CWSS",
-      "Industrial",
-      "Kathiruppu"
-    ],
-    "date": "2026-09-19",
-    "fromTime": "09:00",
-    "toTime": "17:00",
-    "reason": "Maintanance"
-  },
-  {
-    "id": 41,
-    "circle": "NAGAPATTINAM",
-    "town": "Memathur",
-    "substation": "Memathur  33/11KV",
-    "feeder": "Memathur  33/11KV",
-    "localities": [
-      "Memathur",
-      "Thiruvilaiyattam",
-      "Keezhamathur",
-      "Aarupathi"
-    ],
-    "date": "2026-09-19",
-    "fromTime": "09:00",
-    "toTime": "17:00",
-    "reason": "Maintanance"
-  },
-  {
-    "id": 42,
-    "circle": "NAGAPATTINAM",
-    "town": "Mayiladuthurai",
-    "substation": "Mayiladuthurai Urban 33/11KV",
-    "feeder": "Mayiladuthurai Urban 33/11KV",
-    "localities": [
-      "Dharmapuram",
-      "Bazzar",
-      "Thiruvilandur"
-    ],
-    "date": "2026-09-19",
-    "fromTime": "09:00",
-    "toTime": "17:00",
-    "reason": "Maintanance"
-  },
-  {
-    "id": 43,
-    "circle": "NAGAPATTINAM",
-    "town": "Mannakudi",
-    "substation": "MANAKKUDI 33/11 KV",
-    "feeder": "MANAKKUDI 33/11 KV",
-    "localities": [
-      "manakkudi",
-      "semangalam",
-      "Mappadugai",
-      "vepangulam"
-    ],
-    "date": "2026-09-19",
-    "fromTime": "09:00",
-    "toTime": "17:00",
-    "reason": "Maintanance"
-  },
-  {
-    "id": 44,
-    "circle": "NAGAPATTINAM",
-    "town": "Mayiladuthurai",
-    "substation": "MAYILADUTHURAI 110/33/11KV",
-    "feeder": "MAYILADUTHURAI 110/33/11KV",
-    "localities": [
-      "Town-I",
-      "Vadakarai",
-      "Manganallur",
-      "ANPuram",
-      "Waterworks",
-      "Town III",
-      "Vazhuvoor",
-      "Moovalur",
-      "Kiliyanur",
-      "Koranadu",
-      "Myld Urban",
-      "Manakudi",
-      "Memathur"
-    ],
-    "date": "2026-09-19",
-    "fromTime": "09:00",
-    "toTime": "17:00",
-    "reason": "Maintanance"
-  },
-  {
-    "id": 45,
-    "circle": "NAGAPATTINAM",
-    "town": "Arasur",
-    "substation": "ARASUR  33/11 KV",
-    "feeder": "ARASUR  33/11 KV",
-    "localities": [
-      "Mathiravellur",
-      "Waterwoks",
-      "Thirumullaivasal",
-      "M R M",
-      "Agani",
-      "Perambur"
-    ],
-    "date": "2026-09-19",
-    "fromTime": "09:00",
-    "toTime": "17:00",
-    "reason": "Maintanance"
-  },
-  {
-    "id": 46,
-    "circle": "NAGAPATTINAM",
-    "town": "Nagapattinam",
-    "substation": "NAGAI URBAN  33/11 KV",
-    "feeder": "NAGAI URBAN  33/11 KV",
-    "localities": [
-      "Dharga",
-      "Hospital",
-      "Vangaramavady",
-      "Collectorate"
-    ],
-    "date": "2026-09-19",
-    "fromTime": "09:00",
-    "toTime": "17:00",
-    "reason": "Maintanance"
-  },
-  {
-    "id": 47,
-    "circle": "NAGAPATTINAM",
-    "town": "Velankanni",
-    "substation": "VELANKANNI 33/11 KV",
-    "feeder": "VELANKANNI 33/11 KV",
-    "localities": [
-      "P.R.Puram",
-      "VelankanniTown-I",
-      "Gramaththumedu"
-    ],
-    "date": "2026-09-19",
-    "fromTime": "09:00",
-    "toTime": "17:00",
-    "reason": "Maintanance"
-  },
-  {
-    "id": 48,
-    "circle": "NAGAPATTINAM",
-    "town": "Nagapattinam",
-    "substation": "NAGAPPATTINAM 110 KV",
-    "feeder": "NAGAPPATTINAM 110 KV",
-    "localities": [
-      "town",
-      "Velankanni",
-      "Thittacherry",
-      "Express",
-      "Velipalayam",
-      "Paravai",
-      "Sikkal",
-      "Nagore WATERWORKS",
-      "Akkaraipettai",
-      "Nagai Urban",
-      "Vettaikaraniruppu",
-      "Kilvelur"
-    ],
-    "date": "2026-09-19",
-    "fromTime": "09:00",
-    "toTime": "17:00",
-    "reason": "Maintanance"
-  },
-  {
-    "id": 49,
+    "id": 25,
     "circle": "NAGAPATTINAM",
     "town": "Narimanam",
     "substation": "NARIMANAM 110/33/11 KV SS",
@@ -1091,40 +579,7 @@
     "reason": "Maintanance"
   },
   {
-    "id": 50,
-    "circle": "NAGAPATTINAM",
-    "town": "Thittacherry",
-    "substation": "Thittacherry 33/11 KV",
-    "feeder": "Thittacherry 33/11 KV",
-    "localities": [
-      "Thitachery",
-      "Maraikanchavady",
-      "Vaalmangalam",
-      "Panagudy"
-    ],
-    "date": "2026-09-22",
-    "fromTime": "09:00",
-    "toTime": "17:00",
-    "reason": "Maintanance"
-  },
-  {
-    "id": 51,
-    "circle": "NAGAPATTINAM",
-    "town": "Thirumarugal",
-    "substation": "Thirumarugal",
-    "feeder": "Thirumarugal",
-    "localities": [
-      "Thirumarugal",
-      "Marungur",
-      "CWSS"
-    ],
-    "date": "2026-09-22",
-    "fromTime": "09:00",
-    "toTime": "17:00",
-    "reason": "Maintanance"
-  },
-  {
-    "id": 52,
+    "id": 26,
     "circle": "NAGAPATTINAM",
     "town": "Thirumangalam",
     "substation": "Thirumangalam  33/11KV",
@@ -1140,7 +595,7 @@
     "reason": "Maintanance"
   },
   {
-    "id": 53,
+    "id": 27,
     "circle": "NAGAPATTINAM",
     "town": "Manalmedu",
     "substation": "MANALMEDU 110/33/11KV",
@@ -1163,7 +618,7 @@
     "reason": "Maintanance"
   },
   {
-    "id": 54,
+    "id": 28,
     "circle": "NAGAPATTINAM",
     "town": "Kuthalam",
     "substation": "KUTTALAM 33/11KV",
@@ -1179,7 +634,7 @@
     "reason": "Maintanance"
   },
   {
-    "id": 55,
+    "id": 29,
     "circle": "NAGAPATTINAM",
     "town": "Kadalangudi",
     "substation": "KADALANGUDI  230/110 KV SS",
@@ -1199,7 +654,7 @@
     "reason": "Maintanance"
   },
   {
-    "id": 56,
+    "id": 30,
     "circle": "NAGAPATTINAM",
     "town": "Thirukkuvalai",
     "substation": "THIRUKUVALAI 110/11KV",
@@ -1220,7 +675,7 @@
     "reason": "Maintanance"
   },
   {
-    "id": 57,
+    "id": 31,
     "circle": "NAGAPATTINAM",
     "town": "Kidarankondan",
     "substation": "KIDARANKONDAN 110/11 KV",
@@ -1239,7 +694,7 @@
     "reason": "Maintanance"
   },
   {
-    "id": 58,
+    "id": 32,
     "circle": "NAGAPATTINAM",
     "town": "Poraiyar",
     "substation": "PORAIYAR 110/33/11 KV",
@@ -1259,34 +714,16 @@
     "reason": "Maintanance"
   },
   {
-    "id": 59,
+    "id": 33,
     "circle": "PERAMBALUR",
-    "town": "ARIYALUR",
-    "substation": "ARIYALUR  110/33-11 KV SS",
-    "feeder": "ARIYALUR  110/33-11 KV SS",
+    "town": "KALANIVASAL",
+    "substation": "KALANIVASAL 33/11 KV",
+    "feeder": "KALANIVASAL 33/11 KV",
     "localities": [
-      "SENDURAI",
-      "NADUVALUR",
-      "THELUR",
-      "KALLANKURICHI",
-      "COLLECTOR OFFICE"
-    ],
-    "date": "2026-09-19",
-    "fromTime": "09:00",
-    "toTime": "14:00",
-    "reason": "Maintenance work"
-  },
-  {
-    "id": 60,
-    "circle": "PERAMBALUR",
-    "town": "NANNAI",
-    "substation": "33/11 kv NANNAI SS",
-    "feeder": "33/11 kv NANNAI SS",
-    "localities": [
-      "PARAVAI",
-      "KILUMATHUR",
-      "OLAIPADY",
-      "EALUMOR"
+      "THIRUMANDURAI",
+      "PERUMATHUR",
+      "VADDAKKALUR",
+      "ATHIYUR"
     ],
     "date": "2026-09-21",
     "fromTime": "09:00",
@@ -1294,7 +731,7 @@
     "reason": "Maintenance work"
   },
   {
-    "id": 61,
+    "id": 34,
     "circle": "PERAMBALUR",
     "town": "Mettupalayam",
     "substation": "33/11KV METTUPALAYAM",
@@ -1312,7 +749,24 @@
     "reason": "Maintenance work"
   },
   {
-    "id": 62,
+    "id": 35,
+    "circle": "PERAMBALUR",
+    "town": "NANNAI",
+    "substation": "33/11 kv NANNAI SS",
+    "feeder": "33/11 kv NANNAI SS",
+    "localities": [
+      "PARAVAI",
+      "KILUMATHUR",
+      "OLAIPADY",
+      "EALUMOR"
+    ],
+    "date": "2026-09-21",
+    "fromTime": "09:00",
+    "toTime": "14:00",
+    "reason": "Maintenance work"
+  },
+  {
+    "id": 36,
     "circle": "PERAMBALUR",
     "town": "Mangalamedu",
     "substation": "MANGALAMMEDU",
@@ -1330,59 +784,7 @@
     "reason": "Maintenance work"
   },
   {
-    "id": 63,
-    "circle": "PERAMBALUR",
-    "town": "KALANIVASAL",
-    "substation": "KALANIVASAL 33/11 KV",
-    "feeder": "KALANIVASAL 33/11 KV",
-    "localities": [
-      "THIRUMANDURAI",
-      "PERUMATHUR",
-      "VADDAKKALUR",
-      "ATHIYUR"
-    ],
-    "date": "2026-09-21",
-    "fromTime": "09:00",
-    "toTime": "14:00",
-    "reason": "Maintenance work"
-  },
-  {
-    "id": 64,
-    "circle": "PERAMBALUR",
-    "town": "THELUR",
-    "substation": "THELUR",
-    "feeder": "THELUR",
-    "localities": [
-      "PALAYAKUDY",
-      "THELUR",
-      "VILANKUDY",
-      "NAGAMANGALAM",
-      "PERIYATHIRUKONAM"
-    ],
-    "date": "2026-09-22",
-    "fromTime": "09:00",
-    "toTime": "14:00",
-    "reason": "Maintenance work"
-  },
-  {
-    "id": 65,
-    "circle": "PERAMBALUR",
-    "town": "UDAYARPALAYAM",
-    "substation": "UDAYARPALAYAM 33/ 11 KV SS",
-    "feeder": "UDAYARPALAYAM 33/ 11 KV SS",
-    "localities": [
-      "MELUR",
-      "UDAYARPALAYAM",
-      "EDAIYAR",
-      "PARANAM"
-    ],
-    "date": "2026-09-22",
-    "fromTime": "09:00",
-    "toTime": "14:00",
-    "reason": "Maintenance work"
-  },
-  {
-    "id": 66,
+    "id": 37,
     "circle": "PERAMBALUR",
     "town": "SENDURAI",
     "substation": "SENDURAI 33 KV",
@@ -1400,7 +802,42 @@
     "reason": "Maintenance work"
   },
   {
-    "id": 67,
+    "id": 38,
+    "circle": "PERAMBALUR",
+    "town": "UDAYARPALAYAM",
+    "substation": "UDAYARPALAYAM 33/ 11 KV SS",
+    "feeder": "UDAYARPALAYAM 33/ 11 KV SS",
+    "localities": [
+      "MELUR",
+      "UDAYARPALAYAM",
+      "EDAIYAR",
+      "PARANAM"
+    ],
+    "date": "2026-09-22",
+    "fromTime": "09:00",
+    "toTime": "14:00",
+    "reason": "Maintenance work"
+  },
+  {
+    "id": 39,
+    "circle": "PERAMBALUR",
+    "town": "THELUR",
+    "substation": "THELUR",
+    "feeder": "THELUR",
+    "localities": [
+      "PALAYAKUDY",
+      "THELUR",
+      "VILANKUDY",
+      "NAGAMANGALAM",
+      "PERIYATHIRUKONAM"
+    ],
+    "date": "2026-09-22",
+    "fromTime": "09:00",
+    "toTime": "14:00",
+    "reason": "Maintenance work"
+  },
+  {
+    "id": 40,
     "circle": "PERAMBALUR",
     "town": "POYYATHANALLUR",
     "substation": "33/11KV POYYATHANALLUR",
@@ -1417,7 +854,7 @@
     "reason": "Maintenance work"
   },
   {
-    "id": 68,
+    "id": 41,
     "circle": "PERAMBALUR",
     "town": "EACHANGADU",
     "substation": "EACHANGADU",
@@ -1434,7 +871,7 @@
     "reason": "Maintenance work"
   },
   {
-    "id": 69,
+    "id": 42,
     "circle": "PERAMBALUR",
     "town": "Pudukurichy",
     "substation": "PUDHUKURICHI 110/22 KV SS",
@@ -1452,7 +889,7 @@
     "reason": "Maintenance work"
   },
   {
-    "id": 70,
+    "id": 43,
     "circle": "PERAMBALUR",
     "town": "A.METTUR",
     "substation": "A.METTUR 110/22 KV SS",
@@ -1470,7 +907,7 @@
     "reason": "Maintenance work"
   },
   {
-    "id": 71,
+    "id": 44,
     "circle": "PERAMBALUR",
     "town": "Olaiyur",
     "substation": "OLAIYUR (UM)",
@@ -1486,7 +923,7 @@
     "reason": "Maintenance work"
   },
   {
-    "id": 72,
+    "id": 45,
     "circle": "PERAMBALUR",
     "town": "Andimadam",
     "substation": "ANDIMADAM",
@@ -1500,7 +937,7 @@
     "reason": "Maintenance work"
   },
   {
-    "id": 73,
+    "id": 46,
     "circle": "PERAMBALUR",
     "town": "Pappakudy",
     "substation": "PAPPAKUDI",
@@ -1518,7 +955,7 @@
     "reason": "Maintenance work"
   },
   {
-    "id": 74,
+    "id": 47,
     "circle": "PERAMBALUR",
     "town": "Ayyur",
     "substation": "AYYUR 33 KV",
@@ -1536,7 +973,7 @@
     "reason": "Maintenance work"
   },
   {
-    "id": 75,
+    "id": 48,
     "circle": "PERAMBALUR",
     "town": "Periyakarukai",
     "substation": "33/11KV PERIYAKARUKKAI SS",
@@ -1550,7 +987,7 @@
     "reason": "Maintenance work"
   },
   {
-    "id": 76,
+    "id": 49,
     "circle": "PERAMBALUR",
     "town": "Elanthaikkulam",
     "substation": "110/22KV ELANDAIKUDAM SS",
@@ -1567,121 +1004,7 @@
     "reason": "Maintenance work"
   },
   {
-    "id": 77,
-    "circle": "THANJAVUR",
-    "town": "Sethubavachatram",
-    "substation": "SETHUBAVACHATHIRAM",
-    "feeder": "SETHUBAVACHATHIRAM",
-    "localities": [
-      "Sethubavachathiram",
-      "nadiyam",
-      "mallipattinam."
-    ],
-    "date": "2026-09-19",
-    "fromTime": "09:00",
-    "toTime": "15:00",
-    "reason": "Monthly maintenance,"
-  },
-  {
-    "id": 78,
-    "circle": "THANJAVUR",
-    "town": "Orathanadu 33kv only",
-    "substation": "ORATHANADU 33/11 KV (IDPS)",
-    "feeder": "ORATHANADU 33/11 KV (IDPS)",
-    "localities": [
-      "Orathanadu 33kv ratio only",
-      "town",
-      "pudur",
-      "karukkadipatty."
-    ],
-    "date": "2026-09-19",
-    "fromTime": "09:00",
-    "toTime": "15:00",
-    "reason": "Monthly maintenance,"
-  },
-  {
-    "id": 79,
-    "circle": "THANJAVUR",
-    "town": "Thirukkattupalli",
-    "substation": "THIRUKATTUPALLI",
-    "feeder": "THIRUKATTUPALLI",
-    "localities": [
-      "Thirukkattupalli",
-      "kallanai",
-      "ammpathumel nagaram."
-    ],
-    "date": "2026-09-19",
-    "fromTime": "09:00",
-    "toTime": "15:00",
-    "reason": "Monthly maintenance,"
-  },
-  {
-    "id": 80,
-    "circle": "THANJAVUR",
-    "town": "Thirumalaisamuthiram",
-    "substation": "THIRUMALAISAMUTHIRAM 110 KV SS",
-    "feeder": "THIRUMALAISAMUTHIRAM 110 KV SS",
-    "localities": [
-      "Thirumalaisamuthiram",
-      "Sengipatti",
-      "Vallampudur",
-      "Kallaperampur."
-    ],
-    "date": "2026-09-19",
-    "fromTime": "09:00",
-    "toTime": "15:00",
-    "reason": "Monthly maintenance,"
-  },
-  {
-    "id": 81,
-    "circle": "THANJAVUR",
-    "town": "Pattukottai urban",
-    "substation": "PATTUKKOTTAI URBAN",
-    "feeder": "PATTUKKOTTAI URBAN",
-    "localities": [
-      "Pattukottai TOWN",
-      "Thuvarankurichi."
-    ],
-    "date": "2026-09-19",
-    "fromTime": "09:00",
-    "toTime": "15:00",
-    "reason": "Monthly maintenance,"
-  },
-  {
-    "id": 82,
-    "circle": "THANJAVUR",
-    "town": "Kumbakonam Urban,Rajanthottam",
-    "substation": "Kumbakonam Urban",
-    "feeder": "Kumbakonam Urban",
-    "localities": [
-      "Kumbakonam Urban",
-      "Rajanthottam"
-    ],
-    "date": "2026-09-19",
-    "fromTime": "09:00",
-    "toTime": "15:00",
-    "reason": "Monthly maintenance,"
-  },
-  {
-    "id": 83,
-    "circle": "THANJAVUR",
-    "town": "Thanjavur Grid SS 33kv only",
-    "substation": "THANJAVUR 110 KV",
-    "feeder": "THANJAVUR 110 KV",
-    "localities": [
-      "Thanjavur 33kv ratio only",
-      "Karanthai",
-      "Thiruvaiyaru",
-      "Vilar",
-      "EB Colany."
-    ],
-    "date": "2026-09-19",
-    "fromTime": "09:00",
-    "toTime": "15:00",
-    "reason": "Monthly maintenance,"
-  },
-  {
-    "id": 84,
+    "id": 50,
     "circle": "THANJAVUR",
     "town": "Adirampattinam",
     "substation": "110/11 KV Adhirampattinam SS",
@@ -1696,21 +1019,7 @@
     "reason": "Monthly maintenance,"
   },
   {
-    "id": 85,
-    "circle": "THANJAVUR",
-    "town": "Orathanadu 11kv only",
-    "substation": "ORATHANADU 110 KV",
-    "feeder": "ORATHANADU 110 KV",
-    "localities": [
-      "Orathanadu 11kv ratio only"
-    ],
-    "date": "2026-09-22",
-    "fromTime": "09:00",
-    "toTime": "15:00",
-    "reason": "Monthly maintenance,"
-  },
-  {
-    "id": 86,
+    "id": 51,
     "circle": "THANJAVUR",
     "town": "Thirunageswaram",
     "substation": "110/33-11 KV THIRUNAGESWARAM SS",
@@ -1725,7 +1034,7 @@
     "reason": "Monthly maintenance,"
   },
   {
-    "id": 87,
+    "id": 52,
     "circle": "THANJAVUR",
     "town": "Sakkottai",
     "substation": "SAKKOTTAI 110 KV SS",
@@ -1739,7 +1048,21 @@
     "reason": "Monthly maintenance,"
   },
   {
-    "id": 88,
+    "id": 53,
+    "circle": "THANJAVUR",
+    "town": "Orathanadu 11kv only",
+    "substation": "ORATHANADU 110 KV",
+    "feeder": "ORATHANADU 110 KV",
+    "localities": [
+      "Orathanadu 11kv ratio only"
+    ],
+    "date": "2026-09-22",
+    "fromTime": "09:00",
+    "toTime": "15:00",
+    "reason": "Monthly maintenance,"
+  },
+  {
+    "id": 54,
     "circle": "THANJAVUR",
     "town": "Madukkur,Thamarankottai",
     "substation": "MADUKKUR 110 KV",
@@ -1754,7 +1077,22 @@
     "reason": "Monthly maintenance,"
   },
   {
-    "id": 89,
+    "id": 55,
+    "circle": "THANJAVUR",
+    "town": "Thirukkanoorpatty",
+    "substation": "THIRUKANNURPATTY",
+    "feeder": "THIRUKANNURPATTY",
+    "localities": [
+      "Thirukkanurpatti",
+      "Arputhapuram."
+    ],
+    "date": "2026-09-25",
+    "fromTime": "09:00",
+    "toTime": "15:00",
+    "reason": "Monthly maintenance,"
+  },
+  {
+    "id": 56,
     "circle": "THANJAVUR",
     "town": "Karambayam",
     "substation": "Karambayam 110/33/11  KV SS",
@@ -1770,134 +1108,7 @@
     "reason": "Monthly maintenance,"
   },
   {
-    "id": 90,
-    "circle": "THANJAVUR",
-    "town": "Thirukkanoorpatty",
-    "substation": "THIRUKANNURPATTY",
-    "feeder": "THIRUKANNURPATTY",
-    "localities": [
-      "Thirukkanurpatti",
-      "Arputhapuram."
-    ],
-    "date": "2026-09-25",
-    "fromTime": "09:00",
-    "toTime": "15:00",
-    "reason": "Monthly maintenance,"
-  },
-  {
-    "id": 91,
-    "circle": "TIRUPATTUR",
-    "town": "Tirupattur",
-    "substation": "THIRUPATHUR 110 KV",
-    "feeder": "THIRUPATHUR 110 KV",
-    "localities": [
-      "Tirupattur",
-      "Cashram",
-      "Housing board",
-      "Madavalam",
-      "Kurisilapet",
-      "Bommikuppam",
-      "Kottai"
-    ],
-    "date": "2026-09-19",
-    "fromTime": "09:00",
-    "toTime": "17:00",
-    "reason": "Substation maintenance work and line maintenance work"
-  },
-  {
-    "id": 92,
-    "circle": "TIRUPATTUR",
-    "town": "Tirupattur",
-    "substation": "TIRUPATTUR 33 KV",
-    "feeder": "TIRUPATTUR 33 KV",
-    "localities": [
-      "Tirupattur",
-      "Asiriyar nagar",
-      "Thiriyalam",
-      "Pachal",
-      "Achamangalam",
-      "Karupanur"
-    ],
-    "date": "2026-09-19",
-    "fromTime": "09:00",
-    "toTime": "17:00",
-    "reason": "Substation maintenance work and line maintenance work"
-  },
-  {
-    "id": 93,
-    "circle": "TIRUPATTUR",
-    "town": "Kurisilapet",
-    "substation": "KURUSILAPET 33 KV",
-    "feeder": "KURUSILAPET 33 KV",
-    "localities": [
-      "Kurisilapet",
-      "Moolakadu",
-      "Chinnasamudiram",
-      "Andhiyapanur",
-      "Karumbur"
-    ],
-    "date": "2026-09-19",
-    "fromTime": "09:00",
-    "toTime": "17:00",
-    "reason": "Substation maintenance work and line maintenance work"
-  },
-  {
-    "id": 94,
-    "circle": "TIRUPATTUR",
-    "town": "Pudurnadu",
-    "substation": "PUDURNADU 33/11 KV SS",
-    "feeder": "PUDURNADU 33/11 KV SS",
-    "localities": [
-      "Pudurnadu",
-      "Kambukudi",
-      "vazhuthalambut",
-      "Nellivasal",
-      "Kallavoor"
-    ],
-    "date": "2026-09-19",
-    "fromTime": "09:00",
-    "toTime": "17:00",
-    "reason": "Substation maintenance work and line maintenance work"
-  },
-  {
-    "id": 95,
-    "circle": "TIRUPATTUR",
-    "town": "Vellakalnatham",
-    "substation": "VELAKKALNATHAM 33 KV SS",
-    "feeder": "VELAKKALNATHAM 33 KV SS",
-    "localities": [
-      "Vellalkkalnatham",
-      "Cheteridam",
-      "Mallapalli",
-      "Jayapuram"
-    ],
-    "date": "2026-09-19",
-    "fromTime": "09:00",
-    "toTime": "17:00",
-    "reason": "Substation maintenance work and line maintenance work"
-  },
-  {
-    "id": 96,
-    "circle": "TIRUPATTUR",
-    "town": "Kandhili",
-    "substation": "KANDHILI 33 KV",
-    "feeder": "KANDHILI 33 KV",
-    "localities": [
-      "Kandhili",
-      "lackinayaikanpatty",
-      "Veepalnatham",
-      "Puthagaram",
-      "Kothalakottai",
-      "Nandhibenda",
-      "Asceptic"
-    ],
-    "date": "2026-09-19",
-    "fromTime": "09:00",
-    "toTime": "17:00",
-    "reason": "Substation maintenance work and line maintenance work"
-  },
-  {
-    "id": 97,
+    "id": 57,
     "circle": "TRICHY METRO",
     "town": "TRICHY",
     "substation": "COURT CAMPUS SS 110/11 KV  SS",
@@ -1925,36 +1136,185 @@
     "reason": "MONTHLY MAINTENANCE"
   },
   {
-    "id": 98,
-    "circle": "UDUMALPET",
-    "town": "Udumalpet",
-    "substation": "MADATHUKULAM 110 KV",
-    "feeder": "MADATHUKULAM 110 KV",
+    "id": 58,
+    "circle": "TRICHY METRO",
+    "town": "TRICHY",
+    "substation": "NADUPATTY 33/11 KV SS",
+    "feeder": "NADUPATTY 33/11 KV SS",
     "localities": [
-      "Madathukulam",
-      "Krishnapuram",
-      "Narasingapuram",
-      "P.kulam",
-      "Soolamadevi",
-      "Veedapatti",
-      "Kaniyur",
-      "Karatholuvu",
-      "Vanjipuram",
-      "Udiyarpalayam",
-      "Tamiraipaadi",
-      "Seelanaikampatti",
-      "Kadathur",
-      "jothampatti",
-      "senkandipudur",
-      "Karupusamipudur"
+      "PULLUGAMPATTY",
+      "ELAMANAM",
+      "SEETHAPATTY",
+      "KALLUPATTY",
+      "PUTHUVADY",
+      "KEERANOOR",
+      "RAMAREDDIYAPATTY",
+      "NADUPATTY",
+      "KADAVUR",
+      "JAKKAMPATTY"
     ],
-    "date": "2026-09-19",
+    "date": "2026-09-21",
     "fromTime": "09:00",
-    "toTime": "16:00",
-    "reason": "Maintenance"
+    "toTime": "14:00",
+    "reason": "MONTHLY MAINTENANCE"
   },
   {
-    "id": 99,
+    "id": 59,
+    "circle": "TRICHY METRO",
+    "town": "TRICHY",
+    "substation": "THIRUVERUMBUR 110 /11 KV SS",
+    "feeder": "THIRUVERUMBUR 110 /11 KV SS",
+    "localities": [
+      "POLICE COLONY",
+      "PERIYA SURIYUR",
+      "ANNA NGR",
+      "KUMBAKUDI",
+      "ARASU COLONY",
+      "VENGUR",
+      "SELVAPURAM",
+      "GUNDUR",
+      "IYYAMPATTY",
+      "RSK NGR",
+      "SOLAMADEVI",
+      "KANTHALOOR",
+      "SURIYUR",
+      "BHARATHI PURAM",
+      "GANESHA"
+    ],
+    "date": "2026-09-21",
+    "fromTime": "09:00",
+    "toTime": "14:00",
+    "reason": "MONTHLY MAINTENANCE"
+  },
+  {
+    "id": 60,
+    "circle": "TRICHY METRO",
+    "town": "TRICHY",
+    "substation": "THURAIYUR 110/22-11 KV SS",
+    "feeder": "THURAIYUR 110/22-11 KV SS",
+    "localities": [
+      "PULIVALAM",
+      "NAGALAPURAM",
+      "KOLLAPATTY",
+      "PALAKARAI",
+      "KEERAMBUR",
+      "ERAKUDYNALLIYAMPALAYAM",
+      "MUKUKOOR",
+      "VADAKUPATTY",
+      "KOTHAMPATTY",
+      "UKKADAI",
+      "MANAVARAI",
+      "SEKATTU PATTY",
+      "BATHARPETTAI",
+      "SIRUNATHAM"
+    ],
+    "date": "2026-09-21",
+    "fromTime": "09:00",
+    "toTime": "14:00",
+    "reason": "MONTHLY MAINTENANCE"
+  },
+  {
+    "id": 61,
+    "circle": "TRICHY METRO",
+    "town": "TRICHY",
+    "substation": "VALAVANTHANKOTTAI 110 / 11 KV SS",
+    "feeder": "VALAVANTHANKOTTAI 110 / 11 KV SS",
+    "localities": [
+      "AYYAMPATTY",
+      "DEVARAYANERI",
+      "KUMARESHAPURAM",
+      "EZHIL NGR",
+      "THIRUNEDUNKULAM",
+      "THONDAIMAN PATTY",
+      "MGR  CLY",
+      "MELA MANGAVANAM",
+      "GANESHAPURAM",
+      "NSK NGR",
+      "SIPCO COMPANY."
+    ],
+    "date": "2026-09-21",
+    "fromTime": "09:00",
+    "toTime": "14:00",
+    "reason": "MONTHLY MAINTENANCE"
+  },
+  {
+    "id": 62,
+    "circle": "TRICHY METRO",
+    "town": "TRICHY",
+    "substation": "AMMAPETTAI 110/11 KV",
+    "feeder": "AMMAPETTAI 110/11 KV",
+    "localities": [
+      "THAYANURSANTHAI",
+      "KALLKUDY",
+      "ENNAMKULATHUR",
+      "ALAMPATTYPUTHUR",
+      "VELLIVADAI",
+      "AMMAPETTAI",
+      "KARIYAMPATTY",
+      "MARAVANU SAMUTHIRAM",
+      "CHATHIRAPATTY",
+      "RAMJI NGR",
+      "SAMATHUVAPURAM"
+    ],
+    "date": "2026-09-21",
+    "fromTime": "09:00",
+    "toTime": "14:00",
+    "reason": "MONTHLY MAINTENANCE"
+  },
+  {
+    "id": 63,
+    "circle": "TRICHY METRO",
+    "town": "TRICHY",
+    "substation": "MAIN GUARD GATE 33/11 KV SS",
+    "feeder": "MAIN GUARD GATE 33/11 KV SS",
+    "localities": [
+      "DEVATHANAM",
+      "LION DATES",
+      "OYAMARI RD",
+      "ANNA  SILAI",
+      "CHENNAIBY PASS RD",
+      "ANDAVAR WATER",
+      "KAVERY PALAM",
+      "MRV NGR",
+      "PATHUVAINGR",
+      "FRONT LINE HOSPITAL",
+      "SANJEEVI NGR."
+    ],
+    "date": "2026-09-22",
+    "fromTime": "09:00",
+    "toTime": "14:00",
+    "reason": "MONTHLY MAINTENANCE"
+  },
+  {
+    "id": 64,
+    "circle": "TRICHY METRO",
+    "town": "TRICHY",
+    "substation": "KAMBARASAMPETTAI 110/33-11 KV SS",
+    "feeder": "KAMBARASAMPETTAI 110/33-11 KV SS",
+    "localities": [
+      "ANDAL VEETHI",
+      "NACHIYAR PALAYAM",
+      "SALAI RD",
+      "VISALACHI AVENUE",
+      "MAMBALA  SALAI",
+      "MELA KONDAIYAM PETTAI",
+      "PALAYAM BZR",
+      "NAWOB THOTTAM",
+      "WB RD",
+      "MANGAL NGR",
+      "DEVAR CLNY",
+      "SUBANIA PURAM",
+      "HOUSING UNIT",
+      "TT RD",
+      "CAUVERY NGR"
+    ],
+    "date": "2026-09-22",
+    "fromTime": "09:00",
+    "toTime": "14:00",
+    "reason": "MONTHLY MAINTENANCE"
+  },
+  {
+    "id": 65,
     "circle": "UDUMALPET",
     "town": "Angalakurichi",
     "substation": "IYERPADY 110/22 kv",
@@ -1984,7 +1344,7 @@
     "reason": "Maintenance"
   },
   {
-    "id": 100,
+    "id": 66,
     "circle": "UDUMALPET",
     "town": "Angalakuruchi",
     "substation": "DEVANURPUDUR 110/22 KV SS",
@@ -2010,7 +1370,7 @@
     "reason": "maintenance"
   },
   {
-    "id": 101,
+    "id": 67,
     "circle": "UDUMALPET",
     "town": "Pollachi",
     "substation": "ALAMARATHUR 110/22 KV SS",
@@ -2039,7 +1399,7 @@
     "reason": "Maintenance"
   },
   {
-    "id": 102,
+    "id": 68,
     "circle": "UDUMALPET",
     "town": "Angalakurichi",
     "substation": "ANGALAKURICHI 110 KV",
@@ -2068,7 +1428,7 @@
     "reason": "Maintenance"
   },
   {
-    "id": 103,
+    "id": 69,
     "circle": "UDUMALPET",
     "town": "Udumalpet",
     "substation": "PALAPPAMPATTY 110 KV",
@@ -2099,7 +1459,7 @@
     "reason": "maintenance"
   },
   {
-    "id": 104,
+    "id": 70,
     "circle": "UDUMALPET",
     "town": "Udumalpet",
     "substation": "POOLAVADY 110 KV",
@@ -2126,131 +1486,7 @@
     "reason": "Maintenance"
   },
   {
-    "id": 105,
-    "circle": "VELLORE",
-    "town": "MOSUR",
-    "substation": "110/33-11 KV MOSUR",
-    "feeder": "110/33-11 KV MOSUR",
-    "localities": [
-      "Valarpuram",
-      "Arakkonam",
-      "Thiruvalangadu and Mosur surrounding areas."
-    ],
-    "date": "2026-09-19",
-    "fromTime": "09:00",
-    "toTime": "17:00",
-    "reason": "Maintenance work"
-  },
-  {
-    "id": 106,
-    "circle": "VELLORE",
-    "town": "ARAKKONAM RAPDRP",
-    "substation": "33/11 KV UM ARAKKONAM SS",
-    "feeder": "33/11 KV UM ARAKKONAM SS",
-    "localities": [
-      "Arakkonam Town",
-      "Gandhinagar",
-      "Ashoknagar",
-      "Bazzar street",
-      "Stuartpet",
-      "Housing Boad",
-      "Galiwarikandigai",
-      "Ambetkar Nagar",
-      "Nehruji Nagar and Arakkonam RAPDRP surrounding area"
-    ],
-    "date": "2026-09-19",
-    "fromTime": "09:00",
-    "toTime": "17:00",
-    "reason": "Maintenance work"
-  },
-  {
-    "id": 107,
-    "circle": "VELLORE",
-    "town": "ARAKKONAM WINTERPET",
-    "substation": "33/11 KV ARAKKONAM SS",
-    "feeder": "33/11 KV ARAKKONAM SS",
-    "localities": [
-      "Winterpet",
-      "S.R. Gate",
-      "Perumuchi",
-      "Venkatespuram",
-      "Ammanur",
-      "Devadhagam",
-      "Naval",
-      "Railway",
-      "Ramco",
-      "Poipakkam and Arakkonam Winterpet surrounding area."
-    ],
-    "date": "2026-09-19",
-    "fromTime": "09:00",
-    "toTime": "17:00",
-    "reason": "Maintenance work"
-  },
-  {
-    "id": 108,
-    "circle": "VELLORE",
-    "town": "THIRUVALAM",
-    "substation": "33/11 KV THIRUVALAM  SS",
-    "feeder": "33/11 KV THIRUVALAM  SS",
-    "localities": [
-      "Thiruvalam",
-      "Sivananadha Nagar",
-      "R.K.Thangal",
-      "Kammarajapuram",
-      "Illayanallur",
-      "Thenpalli",
-      "Venkatapuram",
-      "Ramanathapuram",
-      "Kuppathamottur and Thiruvalam Surrounding area"
-    ],
-    "date": "2026-09-22",
-    "fromTime": "09:00",
-    "toTime": "17:00",
-    "reason": "Maintenance work"
-  },
-  {
-    "id": 109,
-    "circle": "VELLORE",
-    "town": "ITCHIPUDHUR",
-    "substation": "110/33-11KV ITCHIPUDUR SS",
-    "feeder": "110/33-11KV ITCHIPUDUR SS",
-    "localities": [
-      "MRF Company",
-      "Thanigaipolur",
-      "Vadamambakkam and Itchiputhur surrounding areas"
-    ],
-    "date": "2026-09-22",
-    "fromTime": "09:00",
-    "toTime": "17:00",
-    "reason": "Maintenance work"
-  },
-  {
-    "id": 110,
-    "circle": "VELLORE",
-    "town": "RANIPET",
-    "substation": "33/11 KV RANIPET SS",
-    "feeder": "33/11 KV RANIPET SS",
-    "localities": [
-      "Navalpur",
-      "Puliyakannu",
-      "Santhamedu",
-      "V.C. Motor",
-      "Pinji",
-      "M.B.T Road",
-      "Byepass Raod",
-      "Raffic Nagar",
-      "Melpudupet",
-      "Gandhinagar",
-      "Parry Colony",
-      "Muthukadai Othavadai street  and Ranipet surrounding area."
-    ],
-    "date": "2026-09-22",
-    "fromTime": "09:00",
-    "toTime": "17:00",
-    "reason": "Maintenance work"
-  },
-  {
-    "id": 111,
+    "id": 71,
     "circle": "VELLORE",
     "town": "SATHUVACHARI",
     "substation": "110/11 KV SATHUVACHARI SS",
@@ -2268,51 +1504,7 @@
     "reason": "Maintenance work"
   },
   {
-    "id": 112,
-    "circle": "VELLORE",
-    "town": "SATHUMADURAI",
-    "substation": "110/11 KV SATHUMADURAI SS",
-    "feeder": "110/11 KV SATHUMADURAI SS",
-    "localities": [
-      "Adukamparai",
-      "Thuthipet",
-      "Kulavimedu",
-      "Nelvai",
-      "Kaniyampadi",
-      "Periyapalayam",
-      "Chinnapalayam",
-      "Chozhavaram and Sathumadurai surrounding areas."
-    ],
-    "date": "2026-09-22",
-    "fromTime": "09:00",
-    "toTime": "17:00",
-    "reason": "Maintenance work"
-  },
-  {
-    "id": 113,
-    "circle": "VELLORE",
-    "town": "KARNAMBUT",
-    "substation": "110/33-11 KV KARNAMBUT SS",
-    "feeder": "110/33-11 KV KARNAMBUT SS",
-    "localities": [
-      "Melpadi",
-      "Mittoor",
-      "Vallimalai",
-      "Thiruvalam",
-      "Brammapuram",
-      "Pootuthakku",
-      "Kilminnal",
-      "Arapakkam",
-      "Perumugai",
-      "sevur and Karanambut Surrounding areas."
-    ],
-    "date": "2026-09-22",
-    "fromTime": "09:00",
-    "toTime": "17:00",
-    "reason": "Maintenance work"
-  },
-  {
-    "id": 114,
+    "id": 72,
     "circle": "VELLORE",
     "town": "SERKADU",
     "substation": "33/11 KV UM SERKADU SS",
@@ -2337,7 +1529,114 @@
     "reason": "Maintenance work"
   },
   {
-    "id": 115,
+    "id": 73,
+    "circle": "VELLORE",
+    "town": "ITCHIPUDHUR",
+    "substation": "110/33-11KV ITCHIPUDUR SS",
+    "feeder": "110/33-11KV ITCHIPUDUR SS",
+    "localities": [
+      "MRF Company",
+      "Thanigaipolur",
+      "Vadamambakkam and Itchiputhur surrounding areas"
+    ],
+    "date": "2026-09-22",
+    "fromTime": "09:00",
+    "toTime": "17:00",
+    "reason": "Maintenance work"
+  },
+  {
+    "id": 74,
+    "circle": "VELLORE",
+    "town": "RANIPET",
+    "substation": "33/11 KV RANIPET SS",
+    "feeder": "33/11 KV RANIPET SS",
+    "localities": [
+      "Navalpur",
+      "Puliyakannu",
+      "Santhamedu",
+      "V.C. Motor",
+      "Pinji",
+      "M.B.T Road",
+      "Byepass Raod",
+      "Raffic Nagar",
+      "Melpudupet",
+      "Gandhinagar",
+      "Parry Colony",
+      "Muthukadai Othavadai street  and Ranipet surrounding area."
+    ],
+    "date": "2026-09-22",
+    "fromTime": "09:00",
+    "toTime": "17:00",
+    "reason": "Maintenance work"
+  },
+  {
+    "id": 75,
+    "circle": "VELLORE",
+    "town": "SATHUMADURAI",
+    "substation": "110/11 KV SATHUMADURAI SS",
+    "feeder": "110/11 KV SATHUMADURAI SS",
+    "localities": [
+      "Adukamparai",
+      "Thuthipet",
+      "Kulavimedu",
+      "Nelvai",
+      "Kaniyampadi",
+      "Periyapalayam",
+      "Chinnapalayam",
+      "Chozhavaram and Sathumadurai surrounding areas."
+    ],
+    "date": "2026-09-22",
+    "fromTime": "09:00",
+    "toTime": "17:00",
+    "reason": "Maintenance work"
+  },
+  {
+    "id": 76,
+    "circle": "VELLORE",
+    "town": "KARNAMBUT",
+    "substation": "110/33-11 KV KARNAMBUT SS",
+    "feeder": "110/33-11 KV KARNAMBUT SS",
+    "localities": [
+      "Melpadi",
+      "Mittoor",
+      "Vallimalai",
+      "Thiruvalam",
+      "Brammapuram",
+      "Pootuthakku",
+      "Kilminnal",
+      "Arapakkam",
+      "Perumugai",
+      "sevur and Karanambut Surrounding areas."
+    ],
+    "date": "2026-09-22",
+    "fromTime": "09:00",
+    "toTime": "17:00",
+    "reason": "Maintenance work"
+  },
+  {
+    "id": 77,
+    "circle": "VELLORE",
+    "town": "THIRUVALAM",
+    "substation": "33/11 KV THIRUVALAM  SS",
+    "feeder": "33/11 KV THIRUVALAM  SS",
+    "localities": [
+      "Thiruvalam",
+      "Sivananadha Nagar",
+      "R.K.Thangal",
+      "Kammarajapuram",
+      "Illayanallur",
+      "Thenpalli",
+      "Venkatapuram",
+      "Ramanathapuram",
+      "Kuppathamottur and Thiruvalam Surrounding area"
+    ],
+    "date": "2026-09-22",
+    "fromTime": "09:00",
+    "toTime": "17:00",
+    "reason": "Maintenance work"
+  },
+  {
+    "id": 78,
     "circle": "VELLORE",
     "town": "POOTUTHAKKU",
     "substation": "33 KV UM POOTTUTHAKKU SS",
@@ -2353,7 +1652,7 @@
     "reason": "Maintenance work"
   },
   {
-    "id": 116,
+    "id": 79,
     "circle": "VELLORE",
     "town": "VADUGANTHANGAL",
     "substation": "110/11 KV VADUGANTHANGAL SS",
@@ -2371,7 +1670,7 @@
     "reason": "Maintenance work"
   },
   {
-    "id": 117,
+    "id": 80,
     "circle": "VELLORE",
     "town": "ARCOT",
     "substation": "110/33-11 KV ARCOT SS",
@@ -2396,7 +1695,7 @@
     "reason": "Maintenance work"
   },
   {
-    "id": 118,
+    "id": 81,
     "circle": "VELLORE",
     "town": "KATHIYAVADI",
     "substation": "33/11 KV KATHIYAVADI SS",
@@ -2418,7 +1717,7 @@
     "reason": "Maintenance work"
   },
   {
-    "id": 119,
+    "id": 82,
     "circle": "VELLORE",
     "town": "KILPALLIPET",
     "substation": "110/11 KV KILPALLIPET SS",
@@ -2435,7 +1734,28 @@
     "reason": "Maintenance work"
   },
   {
-    "id": 120,
+    "id": 83,
+    "circle": "VELLORE",
+    "town": "KATPADI",
+    "substation": "110/33 -11KV KATPADI SS",
+    "feeder": "110/33 -11KV KATPADI SS",
+    "localities": [
+      "Gandhi nagar",
+      "Senur",
+      "Chenguttai",
+      "Kalputhur",
+      "EB Colony",
+      "Viruthambut",
+      "Dharapadavedu",
+      "Kangeyanallure and Katpadi surrounding areas."
+    ],
+    "date": "2026-09-23",
+    "fromTime": "09:00",
+    "toTime": "17:00",
+    "reason": "Maintenance work"
+  },
+  {
+    "id": 84,
     "circle": "VELLORE",
     "town": "GANDHI NAGAR",
     "substation": "33/11 KV UM GANDHI NAGAR  SS",
@@ -2459,28 +1779,7 @@
     "reason": "Maintenance work"
   },
   {
-    "id": 121,
-    "circle": "VELLORE",
-    "town": "KATPADI",
-    "substation": "110/33 -11KV KATPADI SS",
-    "feeder": "110/33 -11KV KATPADI SS",
-    "localities": [
-      "Gandhi nagar",
-      "Senur",
-      "Chenguttai",
-      "Kalputhur",
-      "EB Colony",
-      "Viruthambut",
-      "Dharapadavedu",
-      "Kangeyanallure and Katpadi surrounding areas."
-    ],
-    "date": "2026-09-23",
-    "fromTime": "09:00",
-    "toTime": "17:00",
-    "reason": "Maintenance work"
-  },
-  {
-    "id": 122,
+    "id": 85,
     "circle": "VELLORE",
     "town": "THORAPADI",
     "substation": "THORAPADI 110/11 KV",
@@ -2502,7 +1801,7 @@
     "reason": "Maintenance work"
   },
   {
-    "id": 123,
+    "id": 86,
     "circle": "VELLORE",
     "town": "MELPADI",
     "substation": "MELPADI 110/33-11KV SS",
@@ -2525,7 +1824,7 @@
     "reason": "Maintenance work"
   },
   {
-    "id": 124,
+    "id": 87,
     "circle": "VELLORE",
     "town": "M.R.PURAM",
     "substation": "110/11 KV MUGUNDARAYAPURAM  SS",
@@ -2542,7 +1841,7 @@
     "reason": "Maintenance work"
   },
   {
-    "id": 125,
+    "id": 88,
     "circle": "VELLORE",
     "town": "M.V.PURAM",
     "substation": "110/11 KV MELVENKATAPURAM SS",
