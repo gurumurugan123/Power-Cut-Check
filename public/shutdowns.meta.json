@@ -1,6 +1,6 @@
 {
-  "lastFetchedAt": "2026-09-27T11:04:39+05:30",
-  "lastFetchedAtUtc": "2026-09-27T05:34:39Z",
+  "lastFetchedAt": "2026-09-28T11:14:31+05:30",
+  "lastFetchedAtUtc": "2026-09-28T05:44:31Z",
   "source": "https://www.tnebltd.gov.in/outages/viewshutdown.xhtml",
   "script": "scrape_tangedco.py --all",
   "recordCount": 36,
@@ -61,7 +61,6 @@
     "PERAMBALUR",
     "THENI",
     "TRICHY METRO",
-    "UDUMALPET",
     "VILLUPURAM"
   ],
   "ocr": "tesseract"
