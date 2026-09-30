@@ -1,9 +1,9 @@
 {
-  "lastFetchedAt": "2026-09-29T11:31:27+05:30",
-  "lastFetchedAtUtc": "2026-09-29T06:01:27Z",
+  "lastFetchedAt": "2026-09-30T11:21:16+05:30",
+  "lastFetchedAtUtc": "2026-09-30T05:51:16Z",
   "source": "https://www.tnebltd.gov.in/outages/viewshutdown.xhtml",
   "script": "scrape_tangedco.py --all",
-  "recordCount": 86,
+  "recordCount": 100,
   "circlesAttempted": [
     "CBE/METRO",
     "CBE/NORTH",
@@ -53,16 +53,10 @@
   ],
   "circlesSucceeded": [
     "CBE/METRO",
-    "CBE/NORTH",
-    "CBE/SOUTH",
-    "KARUR",
     "NAGAPATTINAM",
-    "NAMAKKAL",
     "PERAMBALUR",
     "PUDUKKOTTAI",
-    "THENI",
-    "TRICHY METRO",
-    "VILLUPURAM"
+    "THENI"
   ],
   "ocr": "tesseract"
 }
