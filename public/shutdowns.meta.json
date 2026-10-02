@@ -1,9 +1,9 @@
 {
-  "lastFetchedAt": "2026-10-01T11:51:17+05:30",
-  "lastFetchedAtUtc": "2026-10-01T06:21:17Z",
+  "lastFetchedAt": "2026-10-02T11:31:02+05:30",
+  "lastFetchedAtUtc": "2026-10-02T06:01:02Z",
   "source": "https://www.tnebltd.gov.in/outages/viewshutdown.xhtml",
   "script": "scrape_tangedco.py --all",
-  "recordCount": 170,
+  "recordCount": 188,
   "circlesAttempted": [
     "CBE/METRO",
     "CBE/NORTH",
@@ -54,11 +54,15 @@
   "circlesSucceeded": [
     "CBE/METRO",
     "CBE/NORTH",
+    "CBE/SOUTH",
+    "CHENNAI SOUTH II",
     "CHENNAI - WEST",
+    "METTUR",
     "NAGAPATTINAM",
     "PERAMBALUR",
     "PUDUKKOTTAI",
     "THANJAVUR",
+    "TRICHY METRO",
     "UDUMALPET"
   ],
   "ocr": "tesseract"
