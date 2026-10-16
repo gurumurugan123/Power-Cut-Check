@@ -1,9 +1,9 @@
 {
-  "lastFetchedAt": "2026-10-15T10:30:50+05:30",
-  "lastFetchedAtUtc": "2026-10-15T05:00:50Z",
+  "lastFetchedAt": "2026-10-16T10:20:21+05:30",
+  "lastFetchedAtUtc": "2026-10-16T04:50:21Z",
   "source": "https://www.tnebltd.gov.in/outages/viewshutdown.xhtml",
   "script": "scrape_tangedco.py --all",
-  "recordCount": 221,
+  "recordCount": 183,
   "circlesAttempted": [
     "CBE/METRO",
     "CBE/NORTH",
@@ -63,7 +63,6 @@
     "PERAMBALUR",
     "PUDUKKOTTAI",
     "THANJAVUR",
-    "TIRUNELVELI",
     "TIRUPATTUR",
     "TRICHY METRO",
     "UDUMALPET",
