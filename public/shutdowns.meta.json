@@ -1,9 +1,9 @@
 {
-  "lastFetchedAt": "2026-10-20T10:38:33+05:30",
-  "lastFetchedAtUtc": "2026-10-20T05:08:33Z",
+  "lastFetchedAt": "2026-10-21T10:39:19+05:30",
+  "lastFetchedAtUtc": "2026-10-21T05:09:19Z",
   "source": "https://www.tnebltd.gov.in/outages/viewshutdown.xhtml",
   "script": "scrape_tangedco.py --all",
-  "recordCount": 146,
+  "recordCount": 147,
   "circlesAttempted": [
     "CBE/METRO",
     "CBE/NORTH",
@@ -64,6 +64,7 @@
     "THANJAVUR",
     "THENI",
     "TIRUPATTUR",
+    "TRICHY METRO",
     "UDUMALPET",
     "VELLORE",
     "VILLUPURAM"
