@@ -1,9 +1,9 @@
 {
-  "lastFetchedAt": "2026-10-30T11:43:05+05:30",
-  "lastFetchedAtUtc": "2026-10-30T06:13:05Z",
+  "lastFetchedAt": "2026-10-31T11:37:41+05:30",
+  "lastFetchedAtUtc": "2026-10-31T06:07:41Z",
   "source": "https://www.tnebltd.gov.in/outages/viewshutdown.xhtml",
   "script": "scrape_tangedco.py --all",
-  "recordCount": 138,
+  "recordCount": 150,
   "circlesAttempted": [
     "CBE/METRO",
     "CBE/NORTH",
@@ -53,6 +53,7 @@
   ],
   "circlesSucceeded": [
     "CBE/METRO",
+    "CUDDALORE",
     "KRISHNAGIRI",
     "NAGAPATTINAM",
     "PERAMBALUR",
