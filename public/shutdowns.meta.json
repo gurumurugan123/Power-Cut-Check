@@ -1,9 +1,9 @@
 {
-  "lastFetchedAt": "2026-11-02T12:06:51+05:30",
-  "lastFetchedAtUtc": "2026-11-02T06:36:51Z",
+  "lastFetchedAt": "2026-11-03T12:36:58+05:30",
+  "lastFetchedAtUtc": "2026-11-03T07:06:58Z",
   "source": "https://www.tnebltd.gov.in/outages/viewshutdown.xhtml",
   "script": "scrape_tangedco.py --all",
-  "recordCount": 197,
+  "recordCount": 214,
   "circlesAttempted": [
     "CBE/METRO",
     "CBE/NORTH",
