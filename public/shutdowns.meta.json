@@ -1,9 +1,9 @@
 {
-  "lastFetchedAt": "2026-11-05T12:41:21+05:30",
-  "lastFetchedAtUtc": "2026-11-05T07:11:21Z",
+  "lastFetchedAt": "2026-11-06T12:40:34+05:30",
+  "lastFetchedAtUtc": "2026-11-06T07:10:34Z",
   "source": "https://www.tnebltd.gov.in/outages/viewshutdown.xhtml",
   "script": "scrape_tangedco.py --all",
-  "recordCount": 230,
+  "recordCount": 240,
   "circlesAttempted": [
     "CBE/METRO",
     "CBE/NORTH",
@@ -59,6 +59,7 @@
     "NAGAPATTINAM",
     "PUDUKKOTTAI",
     "THANJAVUR",
+    "THIRUVARUR",
     "UDUMALPET",
     "VELLORE"
   ],
