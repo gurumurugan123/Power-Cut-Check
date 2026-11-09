@@ -1,6 +1,6 @@
 {
-  "lastFetchedAt": "2026-11-08T11:59:17+05:30",
-  "lastFetchedAtUtc": "2026-11-08T06:29:17Z",
+  "lastFetchedAt": "2026-11-09T12:31:37+05:30",
+  "lastFetchedAtUtc": "2026-11-09T07:01:37Z",
   "source": "https://www.tnebltd.gov.in/outages/viewshutdown.xhtml",
   "script": "scrape_tangedco.py --all",
   "recordCount": 264,
