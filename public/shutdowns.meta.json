@@ -1,9 +1,9 @@
 {
-  "lastFetchedAt": "2026-11-17T13:47:45+05:30",
-  "lastFetchedAtUtc": "2026-11-17T08:17:45Z",
+  "lastFetchedAt": "2026-11-18T13:21:42+05:30",
+  "lastFetchedAtUtc": "2026-11-18T07:51:42Z",
   "source": "https://www.tnebltd.gov.in/outages/viewshutdown.xhtml",
   "script": "scrape_tangedco.py --all",
-  "recordCount": 290,
+  "recordCount": 253,
   "circlesAttempted": [
     "CBE/METRO",
     "CBE/NORTH",
@@ -63,6 +63,7 @@
     "METTUR",
     "NAGAPATTINAM",
     "PUDUKKOTTAI",
+    "SALEM",
     "THANJAVUR",
     "THENI",
     "THIRUVARUR",
