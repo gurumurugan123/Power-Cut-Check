@@ -1,9 +1,9 @@
 {
-  "lastFetchedAt": "2026-11-20T13:09:08+05:30",
-  "lastFetchedAtUtc": "2026-11-20T07:39:08Z",
+  "lastFetchedAt": "2026-11-21T13:04:44+05:30",
+  "lastFetchedAtUtc": "2026-11-21T07:34:44Z",
   "source": "https://www.tnebltd.gov.in/outages/viewshutdown.xhtml",
   "script": "scrape_tangedco.py --all",
-  "recordCount": 200,
+  "recordCount": 188,
   "circlesAttempted": [
     "CBE/METRO",
     "CBE/NORTH",
@@ -55,6 +55,7 @@
     "CBE/METRO",
     "CBE/NORTH",
     "CBE/SOUTH",
+    "CUDDALORE",
     "DHARMAPURI",
     "DINDIGUL",
     "KARUR",
