@@ -1,9 +1,9 @@
 {
-  "lastFetchedAt": "2026-11-26T14:16:39+05:30",
-  "lastFetchedAtUtc": "2026-11-26T08:46:39Z",
+  "lastFetchedAt": "2026-11-27T14:27:01+05:30",
+  "lastFetchedAtUtc": "2026-11-27T08:57:01Z",
   "source": "https://www.tnebltd.gov.in/outages/viewshutdown.xhtml",
   "script": "scrape_tangedco.py --all",
-  "recordCount": 108,
+  "recordCount": 110,
   "circlesAttempted": [
     "CBE/METRO",
     "CBE/NORTH",
@@ -58,7 +58,6 @@
     "CUDDALORE",
     "DINDIGUL",
     "KRISHNAGIRI",
-    "METTUR",
     "NAGAPATTINAM",
     "PUDUKKOTTAI",
     "SALEM",
